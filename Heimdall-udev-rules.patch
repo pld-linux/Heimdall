@@ -1,0 +1,11 @@
+--- Heimdall-1.4.1/heimdall/Makefile.am.udevrules	2015-11-25 23:13:37.900138854 +0100
++++ Heimdall-1.4.1/heimdall/Makefile.am	2015-11-25 23:13:47.357000186 +0100
+@@ -21,7 +21,7 @@ heimdall_LDADD = $(DEPS_LIBS) $(STATIC_L
+ 
+ if LINUXTARGET
+ 
+-udevrulesdir = @libdir@/udev/rules.d
++udevrulesdir = /lib/udev/rules.d
+ udevrules_DATA = 60-heimdall.rules
+ 
+ install-data-hook:
