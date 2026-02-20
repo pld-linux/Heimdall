@@ -1,7 +1,7 @@
 Summary:	Flash firmware on to Samsung Galaxy S devices
 Name:		Heimdall
 Version:	1.4.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Tools
 Source0:	https://github.com/Benjamin-Dobell/Heimdall/archive/v%{version}/%{name}-%{version}.tar.gz
